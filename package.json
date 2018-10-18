@@ -1,13 +1,14 @@
 {
-  "name": "react_init",
+  "name": "@nobitas/react-image-load",
   "version": "1.0.0",
-  "description": "this is a init page",
-  "main": "index.js",
+  "description": "A react image load modulea",
+  "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
-  "author": "",
+  "author": "nobita <869594800@qq.com>",
+  "repository": "https://github.com/nobitas/react-image-load",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.1.2",
@@ -36,5 +37,8 @@
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1"
   },
-  "private": true
+  "keywords": [
+    "react image load"
+  ],
+  "private": false
 }
