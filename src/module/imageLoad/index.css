@@ -1,0 +1,21 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css';
+@import '//at.alicdn.com/t/font_779029_kjbk9qw30xg.css';
+
+.img {
+	object-fit: contain;
+}
+.loading, .load_err {
+	position: relative;
+	display: inline-block;
+	min-width: 150px;
+	min-height: 150px;
+	background: #eee;
+}
+.loading:before, .load_err:before {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 100px;
+	color: #ccc;
+}
